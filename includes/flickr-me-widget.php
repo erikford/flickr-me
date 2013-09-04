@@ -102,8 +102,8 @@ class wap8_Flickr_Me_Widget extends WP_Widget {
 	// widget setup
 	function wap8_Flickr_Me_Widget() {
 		$widget_ops = array(
-			'classname'		=> 'wap8_flickr_me_widget',
-			'description'	=> __( 'Display recent images from a designated Flickr account.', 'wap8plugin-i18n' ),
+			'classname'   => 'wap8_flickr_me_widget',
+			'description' => __( 'Display recent images from a designated Flickr account.', 'wap8plugin-i18n' ),
 			);
 			
 		$this->WP_Widget( 'wap8-Flickr-Me-widget', __( 'Flickr Me', 'wap8plugin-i18n' ), $widget_ops );	
