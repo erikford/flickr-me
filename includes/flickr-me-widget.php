@@ -9,10 +9,10 @@ class wap8_flickr {
 	// sanitize double quotes
 	function wap8_flickr_cleanup( $s = null ) {
 		if ( !$s ) return false;
-    
-    	else {
-    		return str_replace( '"', '', $s );
-    	}
+		
+		else {
+			return str_replace( '"', '', $s );
+		}
 	}
 
 	// return Flickr URL based on image size
