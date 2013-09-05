@@ -47,7 +47,7 @@ function wap8_flickr_me_css() {
 	
 	if ( !is_admin() ) {
 		
-		wp_register_style( 'wap8-flickr-me', plugins_url( 'flickr-me/css/flickr-me.css' ), '', WAP8_FLICKR_ME_VERSION, 'screen' );
+		wp_register_style( 'wap8-flickr-me', plugins_url( 'css/flickr-me.css', __FILE__ ), '', WAP8_FLICKR_ME_VERSION, 'screen' );
 		
 		wp_enqueue_style( 'wap8-flickr-me' );
 		
